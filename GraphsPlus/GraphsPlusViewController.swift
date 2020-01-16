@@ -128,6 +128,7 @@ class GraphsPlusViewController: UIViewController, UITextFieldDelegate {
                 self.expandingPresentationCover.frame = self.view.frame
                 self.expandingPresentationCover.layer.cornerRadius = 0.0
             }, completion: { _ in
+                graphsPlusVC.modalPresentationStyle = .fullScreen
                 self.present(graphsPlusVC, animated: true, completion: {
                     completion?()
                 })
@@ -158,6 +159,7 @@ class GraphsPlusViewController: UIViewController, UITextFieldDelegate {
         UIView.animate(withDuration: DesignDefaults.showPresentationCover, animations: {
             self.presentationCover.alpha = 1.0
         }, completion: { _ in
+            graphsPlusVC.modalPresentationStyle = .fullScreen
             self.present(graphsPlusVC, animated: true, completion: {
                 completion?()
             })
