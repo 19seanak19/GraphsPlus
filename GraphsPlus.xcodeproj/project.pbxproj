@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F402760E23833EED0054FF11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F402760D23833EED0054FF11 /* AppDelegate.swift */; };
+		F402761023833EED0054FF11 /* EquationEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F402760F23833EED0054FF11 /* EquationEditorViewController.swift */; };
+		F402761523833EEF0054FF11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F402761423833EEF0054FF11 /* Assets.xcassets */; };
+		F402762323833EEF0054FF11 /* GraphsPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F402762223833EEF0054FF11 /* GraphsPlusTests.swift */; };
+		F4027632238342B60054FF11 /* DesignDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4027631238342B60054FF11 /* DesignDefaults.swift */; };
+		F41B68AF23A4B921005E1302 /* LoadGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41B68AE23A4B921005E1302 /* LoadGraphViewController.swift */; };
+		F41B68B123A4B95A005E1302 /* LoadLineGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41B68B023A4B95A005E1302 /* LoadLineGraphViewController.swift */; };
+		F41B68B323A4B96E005E1302 /* LoadBarGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41B68B223A4B96E005E1302 /* LoadBarGraphViewController.swift */; };
+		F41B68B623A4C246005E1302 /* SavedGraphTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41B68B523A4C246005E1302 /* SavedGraphTableViewCell.swift */; };
+		F41B68B823A4CCC9005E1302 /* EditLineGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41B68B723A4CCC9005E1302 /* EditLineGraphViewController.swift */; };
+		F41B68BA23A4CD02005E1302 /* EditBarGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41B68B923A4CD02005E1302 /* EditBarGraphViewController.swift */; };
+		F42C9BBB2398D1E000026816 /* AddDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C9BBA2398D1E000026816 /* AddDataView.swift */; };
+		F42C9BBD2398D63800026816 /* AddLineDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C9BBC2398D63800026816 /* AddLineDataView.swift */; };
+		F42F090123A42131002C5EA9 /* AddBarDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42F090023A42131002C5EA9 /* AddBarDataView.swift */; };
+		F42F090423A42F53002C5EA9 /* BarGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42F090323A42F53002C5EA9 /* BarGraphView.swift */; };
+		F42F090623A42F6F002C5EA9 /* BarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42F090523A42F6F002C5EA9 /* BarGraph.swift */; };
+		F448BBCE2384A8830068E936 /* CalcPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448BBCD2384A8830068E936 /* CalcPadView.swift */; };
+		F448BBD02384A89A0068E936 /* CalcPadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448BBCF2384A89A0068E936 /* CalcPadButton.swift */; };
+		F448BBD22384AA620068E936 /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448BBD12384AA620068E936 /* SpacerView.swift */; };
+		F448BBD42384B76D0068E936 /* LabelContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448BBD32384B76D0068E936 /* LabelContainerView.swift */; };
+		F448BBD62384CA000068E936 /* GraphDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448BBD52384C9FF0068E936 /* GraphDisplayViewController.swift */; };
+		F448BBD82384CB8E0068E936 /* GraphsPlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448BBD72384CB8E0068E936 /* GraphsPlusViewController.swift */; };
+		F453D4E32385E39800A99AFE /* GraphStyleEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F453D4E22385E39800A99AFE /* GraphStyleEditorViewController.swift */; };
+		F453D4E52385E71D00A99AFE /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F453D4E42385E71D00A99AFE /* ColorPickerView.swift */; };
+		F453D4E72385F63400A99AFE /* ToggleBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F453D4E62385F63400A99AFE /* ToggleBox.swift */; };
+		F4549A5E23A582EA00DBF677 /* CodableColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4549A5D23A582EA00DBF677 /* CodableColor.swift */; };
+		F45BCDCA23957F310069AB8F /* NewGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BCDC923957F310069AB8F /* NewGraphViewController.swift */; };
+		F45BCDCC2395A6030069AB8F /* NewLineGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BCDCB2395A6030069AB8F /* NewLineGraphViewController.swift */; };
+		F45BCDD02395A7150069AB8F /* NewBarGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BCDCF2395A7150069AB8F /* NewBarGraphViewController.swift */; };
+		F48B6BB023873DE200C85B50 /* GraphModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B6BAF23873DE200C85B50 /* GraphModel.swift */; };
+		F4A2C9FB23865C0600B68ED3 /* StyleEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A2C9FA23865C0600B68ED3 /* StyleEditorViewController.swift */; };
+		F4A2C9FD2386644600B68ED3 /* LineStyleEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A2C9FC2386644600B68ED3 /* LineStyleEditorViewController.swift */; };
+		F4A5B49A2385924D004C7E9D /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5B4992385924D004C7E9D /* GraphView.swift */; };
+		F4A5B49C2385A338004C7E9D /* LineGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5B49B2385A338004C7E9D /* LineGraphView.swift */; };
+		F4A5B49E2385A3A8004C7E9D /* ComplexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5B49D2385A3A8004C7E9D /* ComplexView.swift */; };
+		F4A5B4A02385A697004C7E9D /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5B49F2385A697004C7E9D /* LineGraph.swift */; };
+		F4A5B4A62385AA37004C7E9D /* ExpressionEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5B4A52385AA37004C7E9D /* ExpressionEncoding.swift */; };
+		F4A5B4A82385B4BA004C7E9D /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5B4A72385B4BA004C7E9D /* Graph.swift */; };
+		F4EF2F6323870ACA0097BCE5 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EF2F6223870ACA0097BCE5 /* StartViewController.swift */; };
+		F4F4B5A3239829EF00A74ADE /* BarStyleEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F4B5A2239829EF00A74ADE /* BarStyleEditorViewController.swift */; };
+		F4F4B5A62398442700A74ADE /* GraphDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F4B5A52398442700A74ADE /* GraphDataTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F402761F23833EEF0054FF11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F402760223833EED0054FF11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F402760923833EED0054FF11;
+			remoteInfo = GraphsPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F402760A23833EED0054FF11 /* GraphsPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphsPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F402760D23833EED0054FF11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F402760F23833EED0054FF11 /* EquationEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquationEditorViewController.swift; sourceTree = "<group>"; };
+		F402761423833EEF0054FF11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F402761923833EEF0054FF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F402761E23833EEF0054FF11 /* GraphsPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphsPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F402762223833EEF0054FF11 /* GraphsPlusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphsPlusTests.swift; sourceTree = "<group>"; };
+		F402762423833EEF0054FF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4027631238342B60054FF11 /* DesignDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignDefaults.swift; sourceTree = "<group>"; };
+		F41B68AE23A4B921005E1302 /* LoadGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadGraphViewController.swift; sourceTree = "<group>"; };
+		F41B68B023A4B95A005E1302 /* LoadLineGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadLineGraphViewController.swift; sourceTree = "<group>"; };
+		F41B68B223A4B96E005E1302 /* LoadBarGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadBarGraphViewController.swift; sourceTree = "<group>"; };
+		F41B68B523A4C246005E1302 /* SavedGraphTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedGraphTableViewCell.swift; sourceTree = "<group>"; };
+		F41B68B723A4CCC9005E1302 /* EditLineGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditLineGraphViewController.swift; sourceTree = "<group>"; };
+		F41B68B923A4CD02005E1302 /* EditBarGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBarGraphViewController.swift; sourceTree = "<group>"; };
+		F42C9BBA2398D1E000026816 /* AddDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDataView.swift; sourceTree = "<group>"; };
+		F42C9BBC2398D63800026816 /* AddLineDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLineDataView.swift; sourceTree = "<group>"; };
+		F42F090023A42131002C5EA9 /* AddBarDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBarDataView.swift; sourceTree = "<group>"; };
+		F42F090323A42F53002C5EA9 /* BarGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraphView.swift; sourceTree = "<group>"; };
+		F42F090523A42F6F002C5EA9 /* BarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraph.swift; sourceTree = "<group>"; };
+		F448BBCD2384A8830068E936 /* CalcPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcPadView.swift; sourceTree = "<group>"; };
+		F448BBCF2384A89A0068E936 /* CalcPadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcPadButton.swift; sourceTree = "<group>"; };
+		F448BBD12384AA620068E936 /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
+		F448BBD32384B76D0068E936 /* LabelContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelContainerView.swift; sourceTree = "<group>"; };
+		F448BBD52384C9FF0068E936 /* GraphDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphDisplayViewController.swift; sourceTree = "<group>"; };
+		F448BBD72384CB8E0068E936 /* GraphsPlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphsPlusViewController.swift; sourceTree = "<group>"; };
+		F453D4E22385E39800A99AFE /* GraphStyleEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphStyleEditorViewController.swift; sourceTree = "<group>"; };
+		F453D4E42385E71D00A99AFE /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		F453D4E62385F63400A99AFE /* ToggleBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBox.swift; sourceTree = "<group>"; };
+		F4549A5D23A582EA00DBF677 /* CodableColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableColor.swift; sourceTree = "<group>"; };
+		F45BCDC923957F310069AB8F /* NewGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGraphViewController.swift; sourceTree = "<group>"; };
+		F45BCDCB2395A6030069AB8F /* NewLineGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLineGraphViewController.swift; sourceTree = "<group>"; };
+		F45BCDCF2395A7150069AB8F /* NewBarGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBarGraphViewController.swift; sourceTree = "<group>"; };
+		F48B6BAF23873DE200C85B50 /* GraphModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphModel.swift; sourceTree = "<group>"; };
+		F4A2C9FA23865C0600B68ED3 /* StyleEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleEditorViewController.swift; sourceTree = "<group>"; };
+		F4A2C9FC2386644600B68ED3 /* LineStyleEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineStyleEditorViewController.swift; sourceTree = "<group>"; };
+		F4A5B4992385924D004C7E9D /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		F4A5B49B2385A338004C7E9D /* LineGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraphView.swift; sourceTree = "<group>"; };
+		F4A5B49D2385A3A8004C7E9D /* ComplexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexView.swift; sourceTree = "<group>"; };
+		F4A5B49F2385A697004C7E9D /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
+		F4A5B4A52385AA37004C7E9D /* ExpressionEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionEncoding.swift; sourceTree = "<group>"; };
+		F4A5B4A72385B4BA004C7E9D /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		F4EF2F6223870ACA0097BCE5 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		F4F4B5A2239829EF00A74ADE /* BarStyleEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarStyleEditorViewController.swift; sourceTree = "<group>"; };
+		F4F4B5A52398442700A74ADE /* GraphDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphDataTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F402760723833EED0054FF11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F402761B23833EEF0054FF11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F402760123833EED0054FF11 = {
+			isa = PBXGroup;
+			children = (
+				F402760C23833EED0054FF11 /* GraphsPlus */,
+				F402762123833EEF0054FF11 /* GraphsPlusTests */,
+				F402760B23833EED0054FF11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F402760B23833EED0054FF11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F402760A23833EED0054FF11 /* GraphsPlus.app */,
+				F402761E23833EEF0054FF11 /* GraphsPlusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F402760C23833EED0054FF11 /* GraphsPlus */ = {
+			isa = PBXGroup;
+			children = (
+				F402763023833F8E0054FF11 /* Other */,
+				F402762F23833F7F0054FF11 /* Controller */,
+				F402762E23833F750054FF11 /* View */,
+				F402762D23833F6B0054FF11 /* Model */,
+				F402760D23833EED0054FF11 /* AppDelegate.swift */,
+				F402761423833EEF0054FF11 /* Assets.xcassets */,
+				F402761923833EEF0054FF11 /* Info.plist */,
+			);
+			path = GraphsPlus;
+			sourceTree = "<group>";
+		};
+		F402762123833EEF0054FF11 /* GraphsPlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				F402762223833EEF0054FF11 /* GraphsPlusTests.swift */,
+				F402762423833EEF0054FF11 /* Info.plist */,
+			);
+			path = GraphsPlusTests;
+			sourceTree = "<group>";
+		};
+		F402762D23833F6B0054FF11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F48B6BAF23873DE200C85B50 /* GraphModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F402762E23833F750054FF11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4F4B5A4239843EF00A74ADE /* New Graph */,
+				F41B68B423A4BD2E005E1302 /* Load Graph */,
+				F4A5B4A22385A6D6004C7E9D /* General */,
+				F4A5B4A12385A6C6004C7E9D /* EquationEditor */,
+				F4A5B4A32385A6EB004C7E9D /* Graphs */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F402762F23833F7F0054FF11 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F45BCDCE2395A6D30069AB8F /* New Graph */,
+				F41B68AD23A4B8F1005E1302 /* Load Graph */,
+				F45BCDCD2395A6B70069AB8F /* Style Editor */,
+				F402760F23833EED0054FF11 /* EquationEditorViewController.swift */,
+				F448BBD52384C9FF0068E936 /* GraphDisplayViewController.swift */,
+				F448BBD72384CB8E0068E936 /* GraphsPlusViewController.swift */,
+				F4EF2F6223870ACA0097BCE5 /* StartViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F402763023833F8E0054FF11 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F4027631238342B60054FF11 /* DesignDefaults.swift */,
+				F4A5B4A52385AA37004C7E9D /* ExpressionEncoding.swift */,
+				F4549A5D23A582EA00DBF677 /* CodableColor.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		F41B68AD23A4B8F1005E1302 /* Load Graph */ = {
+			isa = PBXGroup;
+			children = (
+				F41B68AE23A4B921005E1302 /* LoadGraphViewController.swift */,
+				F41B68B023A4B95A005E1302 /* LoadLineGraphViewController.swift */,
+				F41B68B223A4B96E005E1302 /* LoadBarGraphViewController.swift */,
+				F41B68B723A4CCC9005E1302 /* EditLineGraphViewController.swift */,
+				F41B68B923A4CD02005E1302 /* EditBarGraphViewController.swift */,
+			);
+			name = "Load Graph";
+			sourceTree = "<group>";
+		};
+		F41B68B423A4BD2E005E1302 /* Load Graph */ = {
+			isa = PBXGroup;
+			children = (
+				F41B68B523A4C246005E1302 /* SavedGraphTableViewCell.swift */,
+			);
+			name = "Load Graph";
+			sourceTree = "<group>";
+		};
+		F42F090223A42DEE002C5EA9 /* Bar Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				F42F090323A42F53002C5EA9 /* BarGraphView.swift */,
+				F42F090523A42F6F002C5EA9 /* BarGraph.swift */,
+			);
+			name = "Bar Graphs";
+			sourceTree = "<group>";
+		};
+		F45BCDCD2395A6B70069AB8F /* Style Editor */ = {
+			isa = PBXGroup;
+			children = (
+				F4A2C9FA23865C0600B68ED3 /* StyleEditorViewController.swift */,
+				F453D4E22385E39800A99AFE /* GraphStyleEditorViewController.swift */,
+				F4A2C9FC2386644600B68ED3 /* LineStyleEditorViewController.swift */,
+				F4F4B5A2239829EF00A74ADE /* BarStyleEditorViewController.swift */,
+			);
+			name = "Style Editor";
+			sourceTree = "<group>";
+		};
+		F45BCDCE2395A6D30069AB8F /* New Graph */ = {
+			isa = PBXGroup;
+			children = (
+				F45BCDC923957F310069AB8F /* NewGraphViewController.swift */,
+				F45BCDCB2395A6030069AB8F /* NewLineGraphViewController.swift */,
+				F45BCDCF2395A7150069AB8F /* NewBarGraphViewController.swift */,
+			);
+			name = "New Graph";
+			sourceTree = "<group>";
+		};
+		F4A5B4A12385A6C6004C7E9D /* EquationEditor */ = {
+			isa = PBXGroup;
+			children = (
+				F448BBCD2384A8830068E936 /* CalcPadView.swift */,
+				F448BBCF2384A89A0068E936 /* CalcPadButton.swift */,
+			);
+			name = EquationEditor;
+			sourceTree = "<group>";
+		};
+		F4A5B4A22385A6D6004C7E9D /* General */ = {
+			isa = PBXGroup;
+			children = (
+				F4A5B49D2385A3A8004C7E9D /* ComplexView.swift */,
+				F448BBD12384AA620068E936 /* SpacerView.swift */,
+				F448BBD32384B76D0068E936 /* LabelContainerView.swift */,
+				F453D4E42385E71D00A99AFE /* ColorPickerView.swift */,
+				F453D4E62385F63400A99AFE /* ToggleBox.swift */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		F4A5B4A32385A6EB004C7E9D /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				F4A5B4992385924D004C7E9D /* GraphView.swift */,
+				F4A5B4A72385B4BA004C7E9D /* Graph.swift */,
+				F4A5B4A42385A6FA004C7E9D /* Line Graphs */,
+				F42F090223A42DEE002C5EA9 /* Bar Graphs */,
+			);
+			name = Graphs;
+			sourceTree = "<group>";
+		};
+		F4A5B4A42385A6FA004C7E9D /* Line Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				F4A5B49B2385A338004C7E9D /* LineGraphView.swift */,
+				F4A5B49F2385A697004C7E9D /* LineGraph.swift */,
+			);
+			name = "Line Graphs";
+			sourceTree = "<group>";
+		};
+		F4F4B5A4239843EF00A74ADE /* New Graph */ = {
+			isa = PBXGroup;
+			children = (
+				F4F4B5A52398442700A74ADE /* GraphDataTableViewCell.swift */,
+				F4F4B5A723986A1700A74ADE /* Add Data */,
+			);
+			name = "New Graph";
+			sourceTree = "<group>";
+		};
+		F4F4B5A723986A1700A74ADE /* Add Data */ = {
+			isa = PBXGroup;
+			children = (
+				F42C9BBA2398D1E000026816 /* AddDataView.swift */,
+				F42C9BBC2398D63800026816 /* AddLineDataView.swift */,
+				F42F090023A42131002C5EA9 /* AddBarDataView.swift */,
+			);
+			name = "Add Data";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F402760923833EED0054FF11 /* GraphsPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F402762723833EEF0054FF11 /* Build configuration list for PBXNativeTarget "GraphsPlus" */;
+			buildPhases = (
+				F402760623833EED0054FF11 /* Sources */,
+				F402760723833EED0054FF11 /* Frameworks */,
+				F402760823833EED0054FF11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphsPlus;
+			productName = GraphsPlus;
+			productReference = F402760A23833EED0054FF11 /* GraphsPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F402761D23833EEF0054FF11 /* GraphsPlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F402762A23833EEF0054FF11 /* Build configuration list for PBXNativeTarget "GraphsPlusTests" */;
+			buildPhases = (
+				F402761A23833EEF0054FF11 /* Sources */,
+				F402761B23833EEF0054FF11 /* Frameworks */,
+				F402761C23833EEF0054FF11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F402762023833EEF0054FF11 /* PBXTargetDependency */,
+			);
+			name = GraphsPlusTests;
+			productName = GraphsPlusTests;
+			productReference = F402761E23833EEF0054FF11 /* GraphsPlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F402760223833EED0054FF11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Kimball, Sean A";
+				TargetAttributes = {
+					F402760923833EED0054FF11 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					F402761D23833EEF0054FF11 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = F402760923833EED0054FF11;
+					};
+				};
+			};
+			buildConfigurationList = F402760523833EED0054FF11 /* Build configuration list for PBXProject "GraphsPlus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F402760123833EED0054FF11;
+			productRefGroup = F402760B23833EED0054FF11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F402760923833EED0054FF11 /* GraphsPlus */,
+				F402761D23833EEF0054FF11 /* GraphsPlusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F402760823833EED0054FF11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F402761523833EEF0054FF11 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F402761C23833EEF0054FF11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F402760623833EED0054FF11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F402761023833EED0054FF11 /* EquationEditorViewController.swift in Sources */,
+				F41B68B123A4B95A005E1302 /* LoadLineGraphViewController.swift in Sources */,
+				F4A2C9FD2386644600B68ED3 /* LineStyleEditorViewController.swift in Sources */,
+				F42F090123A42131002C5EA9 /* AddBarDataView.swift in Sources */,
+				F4A5B49C2385A338004C7E9D /* LineGraphView.swift in Sources */,
+				F4A5B4A62385AA37004C7E9D /* ExpressionEncoding.swift in Sources */,
+				F42C9BBB2398D1E000026816 /* AddDataView.swift in Sources */,
+				F453D4E52385E71D00A99AFE /* ColorPickerView.swift in Sources */,
+				F4F4B5A3239829EF00A74ADE /* BarStyleEditorViewController.swift in Sources */,
+				F41B68B823A4CCC9005E1302 /* EditLineGraphViewController.swift in Sources */,
+				F42F090423A42F53002C5EA9 /* BarGraphView.swift in Sources */,
+				F448BBD02384A89A0068E936 /* CalcPadButton.swift in Sources */,
+				F41B68BA23A4CD02005E1302 /* EditBarGraphViewController.swift in Sources */,
+				F4A2C9FB23865C0600B68ED3 /* StyleEditorViewController.swift in Sources */,
+				F4549A5E23A582EA00DBF677 /* CodableColor.swift in Sources */,
+				F41B68B623A4C246005E1302 /* SavedGraphTableViewCell.swift in Sources */,
+				F448BBD22384AA620068E936 /* SpacerView.swift in Sources */,
+				F4EF2F6323870ACA0097BCE5 /* StartViewController.swift in Sources */,
+				F4027632238342B60054FF11 /* DesignDefaults.swift in Sources */,
+				F48B6BB023873DE200C85B50 /* GraphModel.swift in Sources */,
+				F41B68AF23A4B921005E1302 /* LoadGraphViewController.swift in Sources */,
+				F448BBD62384CA000068E936 /* GraphDisplayViewController.swift in Sources */,
+				F42F090623A42F6F002C5EA9 /* BarGraph.swift in Sources */,
+				F45BCDCC2395A6030069AB8F /* NewLineGraphViewController.swift in Sources */,
+				F4A5B49A2385924D004C7E9D /* GraphView.swift in Sources */,
+				F453D4E72385F63400A99AFE /* ToggleBox.swift in Sources */,
+				F453D4E32385E39800A99AFE /* GraphStyleEditorViewController.swift in Sources */,
+				F4A5B4A02385A697004C7E9D /* LineGraph.swift in Sources */,
+				F4F4B5A62398442700A74ADE /* GraphDataTableViewCell.swift in Sources */,
+				F4A5B4A82385B4BA004C7E9D /* Graph.swift in Sources */,
+				F4A5B49E2385A3A8004C7E9D /* ComplexView.swift in Sources */,
+				F402760E23833EED0054FF11 /* AppDelegate.swift in Sources */,
+				F41B68B323A4B96E005E1302 /* LoadBarGraphViewController.swift in Sources */,
+				F448BBD82384CB8E0068E936 /* GraphsPlusViewController.swift in Sources */,
+				F42C9BBD2398D63800026816 /* AddLineDataView.swift in Sources */,
+				F45BCDD02395A7150069AB8F /* NewBarGraphViewController.swift in Sources */,
+				F45BCDCA23957F310069AB8F /* NewGraphViewController.swift in Sources */,
+				F448BBD42384B76D0068E936 /* LabelContainerView.swift in Sources */,
+				F448BBCE2384A8830068E936 /* CalcPadView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F402761A23833EEF0054FF11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F402762323833EEF0054FF11 /* GraphsPlusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F402762023833EEF0054FF11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F402760923833EED0054FF11 /* GraphsPlus */;
+			targetProxy = F402761F23833EEF0054FF11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F402762523833EEF0054FF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F402762623833EEF0054FF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F402762823833EEF0054FF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GraphsPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.cse.sak92.GraphsPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F402762923833EEF0054FF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GraphsPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.cse.sak92.GraphsPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F402762B23833EEF0054FF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GraphsPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.cse.sak92.GraphsPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphsPlus.app/GraphsPlus";
+			};
+			name = Debug;
+		};
+		F402762C23833EEF0054FF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GraphsPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.cse.sak92.GraphsPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphsPlus.app/GraphsPlus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F402760523833EED0054FF11 /* Build configuration list for PBXProject "GraphsPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F402762523833EEF0054FF11 /* Debug */,
+				F402762623833EEF0054FF11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F402762723833EEF0054FF11 /* Build configuration list for PBXNativeTarget "GraphsPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F402762823833EEF0054FF11 /* Debug */,
+				F402762923833EEF0054FF11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F402762A23833EEF0054FF11 /* Build configuration list for PBXNativeTarget "GraphsPlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F402762B23833EEF0054FF11 /* Debug */,
+				F402762C23833EEF0054FF11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F402760223833EED0054FF11 /* Project object */;
+}
