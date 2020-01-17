@@ -17,9 +17,9 @@
 
 <img src=./Screenshots/NewLineGraphView.png width=227> &nbsp; &nbsp; <img src=./Screenshots/NewBarGraphView.png width=227> &nbsp; &nbsp; <img src=./Screenshots/popupdataentryview.gif width=227>
 
-<img src=./Screenshots/viewtransitionwithslidingcover.gif width=227> &nbsp; &nbsp; <img src=./Screenshots/LineStyleEditor.png width=227> &nbsp; &nbsp; <img src=./Screenshots/numpadexample.gif width=227>
+<img src=./Screenshots/viewtransitionwithslidingcover.gif width=227> &nbsp; &nbsp; <img src=./Screenshots/LineStyleEditor.png width=227> &nbsp; &nbsp; <img src=./Screenshots/NumPadExample.gif width=227>
 
-<img src=./Screenshots/barstyleexample.gif width=227> &nbsp; &nbsp; <img src=./Screenshots/colorpicker.png width=227> &nbsp; &nbsp; <img src=./Screenshots/overwritestyle.gif width=227>
+<img src=./Screenshots/barstyleexample.gif width=227> &nbsp; &nbsp; <img src=./Screenshots/ColorPicker.png width=227> &nbsp; &nbsp; <img src=./Screenshots/overwritestyle.gif width=227>
 
 <img src=./Screenshots/slidingcoverdismiss.gif width=227> &nbsp; &nbsp; <img src=./Screenshots/GraphStyleEditor.png width=227> &nbsp; &nbsp; <img src=./Screenshots/FinalLineGraph.png width=227>
 
